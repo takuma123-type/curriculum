@@ -1,0 +1,176 @@
+/*==========================
+#wrapperここから
+===========================*/
+
+
+body {
+    background-image: url("tekusu.jpg");
+}
+
+div#wrapper {
+    width: 960px;
+    height: auto;
+    margin: 0 auto ;
+    
+}
+
+/*==========================
+#headerここから
+===========================*/
+
+header {
+    width: 960px;
+    height: 99px;
+   
+}
+
+nav {
+    float:right;
+    margin-top: 50px;
+}
+
+header h1 {
+    width: 213px;
+    height: 39px;
+    margin-top: 30px;
+    float: left;
+}
+
+
+nav ul li {
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    color:black;
+}
+
+
+/*==========================
+#headerここまで
+===========================*/
+
+
+/*==========================
+#headerここから
+===========================*/
+
+
+.contents {
+    background-color: aquamarine;
+    border:1px solid  #CCC;
+    padding: 10px;
+    width: 960px;
+    margin:0 auto;
+    text-align: center;
+    clear: both;
+} 
+
+
+.contents >h1 {
+    font-family:"Arial Black";
+    text-align: center;
+    
+}
+
+.box {
+    background-color: #FFF;
+    border:1px solid #333;
+    float: left;
+    font-family: "Arial Black";
+    margin: 4.5px;
+    padding: 10px;
+    width: 218px;
+}
+
+
+/*==========================
+#headerここまで
+===========================*/
+
+
+/*==========================
+#leftここから
+===========================*/
+
+div#left {
+    margin:0 auto;
+    text-align: center;
+   
+  
+}
+div#conte {
+    width: 1000px;
+    padding: 10px;
+    margin:0 auto;
+    text-align: center;
+}
+
+/*==========================
+#leftここまで
+===========================*/
+
+.content {
+    background-color: aquamarine;
+    border:1px solid  #CCC;
+    padding: 10px;
+    width: 960px;
+    clear: both;
+}
+
+
+div#right {
+    width: 960px;
+    height: auto;
+    margin:0 auto;
+    text-align: center;
+    background-color: #FFF;
+    clear: both;
+} 
+
+div#content {
+    width: 1000px;
+    padding: 10px;
+    margin:0 auto;
+    text-align: center;
+   
+}
+div#right h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555555;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.box {
+    float: left;
+    font-family: "Arial Black";
+    margin: center;
+    text-align: center;
+    padding: 10px;
+    width: 218px;
+}
+
+
+div.clearfix {
+    clear: both;
+}
+
+
+/*==========================
+#wrapperここまで
+===========================*/
+footer {
+    width: 100%;
+    height: 79px;
+    background-color:gray;
+    margin-top: 30px;
+    text-align: center;
+}
