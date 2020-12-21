@@ -17,7 +17,7 @@ public class java11 {
 	        // ⑥変数 hogeInt の値を表示
               System.out.println(hogeInt);
 	        // ⑦下記の処理について、何をしているのかコメントを記入してください
-	        // [ここへ記述]
+	        // [hogeStringを出力している]
 	        System.out.println(hogeString);
 
 	        // ⑧変数 hogeDouble の値を表示
