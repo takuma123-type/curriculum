@@ -41,7 +41,7 @@ public class java14 {
 
 	        // ⑤ 名前もパスワードも間違っていた場合は、「 入力情報に誤りがあります。 」と出力してください。
 
-	    }else {
+	    }else if(CONST_MSG_ERROR_INPUT){
 	    	 System.out.println("入力情報に誤りがあります。");
         }
     }

@@ -5,7 +5,7 @@ public class java12 {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		// ① 「みかん」、「りんご」、「ぶどう」、「メロン」の値を設定した配列 fluits を作成してください。
-     String[] fluits = {"みかん","ぶどう","メロン"};
+     String[] fluits = {"みかん","りんご",ぶどう","メロン"};
 
         // ② for文を使って①で作成した配列を出力しなさい。
          for(int i = 0; i < fluits.length;i++) {
@@ -38,7 +38,7 @@ public class java12 {
 
         for(int i = 1; i <= 9; i++){
             for(int j = 1; j <= 9; j++){
-                System.out.print(" " + i * j);
+                System.out.print(" ||" + i * j);
             }
         
             System.out.println();
