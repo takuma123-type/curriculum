@@ -1,0 +1,38 @@
+.footer {
+    background-color: cl(primary);
+    padding-top: 60px;
+    padding-bottom: 15px;
+    border-top: 1px solid #6e6e6e;
+    .inner {
+
+    }
+    .nav-wrap {
+
+    }
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .nav-item {
+        + .nav-item {
+            margin-left: 35px;
+        }
+        a {
+            font-size: 16px;
+            color: cl(white);
+        }
+    }
+    .footer-logo {
+        width: 188px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+    }
+    .copyright {
+        padding-top: 20px;
+        color: cl(white);
+        font-size: 16px;
+        text-align: center;
+    }
+}

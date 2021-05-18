@@ -1,0 +1,14 @@
+.header {
+  background-color: cl(primary);
+}
+
+.header .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .nav-list > a {
+  color: cl(white);
+}
+/*# sourceMappingURL=header.css.map */

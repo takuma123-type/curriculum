@@ -1,0 +1,27 @@
+//COLOR
+//@include-cl(black);
+//---------------------------------
+
+$colors: (
+    white: #fff,
+    black: #000,
+    text: #333333,
+    grey:#6E6E6E,
+    Lightgrey: #F2F2F2,
+    red: #FF0000,
+    primary: #4D0000,
+    gold: #88860BEA,
+    baige: #FFFFDD,
+);
+
+@function cl($key) {
+    @return map-get($colors, $key);
+}
+//FONT
+//@include TimeNewRoman;
+
+@mixin TimeNewRoman {
+    font-family: "Time New Roman", "YuMincho",
+     "Hiragino Mincho Pro", "Yu Mincho","MS PMincho",
+    serif;
+}

@@ -1,0 +1,54 @@
+.features {
+    padding-top: 80px;
+
+    .features-cont {
+
+    }
+    .features-list {
+
+    }
+    .features-item {
+        display: flex;
+        color: cl(white);
+        &:nth-child(odd){
+            flex-flow: row-reverse;
+            .image {
+                margin-right: 40px;
+            }
+            .text {
+                margin-right: 40px;
+            }
+        }
+        &:nth-child(even){
+            .image {
+                margin-left: 40px;
+            }
+            .text {
+                margin-right: 40px;
+            }
+        }
+        .text {
+            flex: 1;
+        }
+        .title {
+            color: cl(baige);
+            font-size: 28px;
+
+        }
+        .desc {
+            font-size: 18px;
+            margin-top: 50px;
+        }
+        .image {
+            width: percentage($number: (640/1280));
+        }
+    }
+    .foatures-link {
+        padding-top: 60px;
+        text-align: center;
+        a {
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+}
